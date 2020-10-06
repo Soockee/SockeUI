@@ -1,0 +1,6 @@
+## Interface: 80300
+## Title: SockeUI
+## Author: Simon Stockhause
+## Version: 1
+
+SockeUI.xml
