@@ -1,3 +1,13 @@
+Copyright (C) 2020 Simon Stockhause
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
 
 SockeUI = {
     fontSize = 10, -- font size for default table
@@ -123,7 +133,7 @@ function ActionbarMixin:OnEvent(event, eventUnit, arg1)
     if event == "PLAYER_ENTERING_WORLD" then
         self:InitializeActionBar()
 
-        SockeUI:Print("SockeIU Actionbars init")
+        SockeUI:Print("SockeUI Actionbars init")
         self.initialized = true;
         self:UnregisterEvent("PLAYER_ENTERING_WORLD");
     end
